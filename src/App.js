@@ -1,10 +1,30 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import { Switch, BrowserRouter as Router, Route, Link } from "react-router-dom";
+import About from "./pages/About";
+import Blog from "./pages/Blog";
+import Contact from "./pages/Contact";
+import Services from "./pages/Services";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <Router>
+      <Switch>
+        <Route path="/">
+          <About />
+        </Route>
+        <Route path="/blog">
+          <Blog />
+        </Route>
+        <Route path="/Contact">
+          <Contact />
+        </Route>
+        <Route path="/Services">
+          <Services />
+        </Route>
+      </Switch>
+    </Router>
+  );
 }
 
 export default App;

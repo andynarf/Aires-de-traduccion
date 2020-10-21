@@ -1,0 +1,58 @@
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    height: 6rem;
+}
+
+.navbar__logo {
+    height: 100%;
+    width: 13.15rem;
+}
+
+.navbar__logo > img {
+    height: 100%;
+    width: 100%;
+}
+
+.navbar__buttons{
+    margin-right: 1rem;
+}
+
+.navbar__buttons > button {
+    position: relative;
+    margin-left: 0.7rem;
+    min-width: 7rem;
+    background-color: whitesmoke;
+    color: #5562A0;
+    font-size: 12px;
+    text-transform: capitalize;
+    border: 1.5px solid rgb(163, 164, 164);
+    padding: 0.7rem;
+    border-radius: 0px;
+
+}
+.btn-active {
+    color: whitesmoke !important;
+    background-color: #5562A0 !important;
+}
+
+.navbar__buttons > button:hover {
+    background-color: #5562A0;
+    color: white;
+}
+
+.navbar__buttons > button::after {
+    content: '';
+    position: absolute;
+    bottom: 3px;
+    display: inline-block;
+    /* height: px; */
+    width: 5rem;
+    border-radius: 40px;
+    box-shadow: -2px 5px 5px 2px rgb(163, 164, 164);
+    height: 2rem;
+    z-index: -2;
+
+}

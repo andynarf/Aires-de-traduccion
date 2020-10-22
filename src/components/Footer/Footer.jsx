@@ -36,7 +36,7 @@ const Footer = () => {
       </div>
       <span>
         {" "}
-        Copyright - {new Date().getUTCFullYear()} www.aresdetraduccion.com ALL
+        Copyright - {new Date().getUTCFullYear()} www.airesdetraduccion.com ALL
         RIGHTS RESERVED{" "}
       </span>
     </div>

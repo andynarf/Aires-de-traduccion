@@ -3,12 +3,12 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    height: 6rem;
+    height: 8rem;
 }
 
 .navbar__logo {
     height: 100%;
-    width: 13.15rem;
+    width: 15rem;
 }
 
 .navbar__logo > img {

@@ -14,6 +14,7 @@
   text-transform: capitalize;
   font-size: 2rem;
   font-style: italic;
+  font-weight: lighter;
   margin: 0 0 3% 4%;
 }
 
@@ -24,7 +25,8 @@
 
 .about__info > p {
   text-align: center;
-  font-size: 14px;
+  font-size: 20px;
+  font-weight: 500;
   line-height: 1.4rem;
 }
 

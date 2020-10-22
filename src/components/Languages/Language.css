@@ -1,0 +1,22 @@
+.language {
+  width: 7rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: black;
+  padding-top: 4rem;
+}
+
+.language > button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: whitesmoke;
+  margin-bottom: 1.25rem;
+  font-size: 15px;
+}
+
+.language-active {
+  color: #d18356 !important;
+}

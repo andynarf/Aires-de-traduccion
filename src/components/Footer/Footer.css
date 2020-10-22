@@ -1,0 +1,61 @@
+.footer {
+  background-color: #1c3c6d;
+  height: 13rem;
+}
+
+.footer__top {
+  padding: 1rem 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.footer__links > a {
+  color: whitesmoke;
+  font-size: 12px;
+  text-decoration: none;
+  margin: 0.6rem 0;
+}
+
+.footer__right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__right > span {
+  color: whitesmoke;
+  font-size: 12px;
+  margin-bottom: 0.5rem;
+}
+
+.footer__social-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.MuiIconButton-label > svg {
+  fill: white;
+  margin-left: 1rem;
+}
+
+.MuiIconButton-label > svg:first-child {
+  margin-left: 0;
+}
+
+.footer > span {
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  letter-spacing: 0.1rem;
+}
+
+/* responsivenes  fonts*/
